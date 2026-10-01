@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -463,15 +463,3 @@ with st.expander("ℹ️ 어떻게 계산했나요?"):
         통계적 예측이며, 실제 미래 기온을 보장하는 예측은 아닙니다.
         """
     )
-```
-
-`requirements.txt`는 다음처럼 두면 됩니다.
-
-```text
-streamlit
-pandas
-numpy
-plotly
-```
-
-이 코드는 **전체 기간의 100년당 변화량**과 **최근 20년의 100년당 변화량**을 나란히 보여주고, 선택한 연도의 회귀 기반 예상 기온까지 표시합니다.
